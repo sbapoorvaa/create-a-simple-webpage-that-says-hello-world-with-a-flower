@@ -1,0 +1,63 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.flower {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.petal {
+  position: absolute;
+  width: 50px;
+  height: 80px;
+  background-color: pink;
+  border-radius: 50% 50% 0 0;
+  top: 50%;
+  left: 50%;
+  transform-origin: bottom center;
+}
+
+.petal1 {
+  transform: rotate(0deg) translateX(60px) translateY(-40px);
+}
+
+.petal2 {
+  transform: rotate(90deg) translateX(60px) translateY(-40px);
+}
+
+.petal3 {
+  transform: rotate(180deg) translateX(60px) translateY(-40px);
+}
+
+.petal4 {
+  transform: rotate(270deg) translateX(60px) translateY(-40px);
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: yellow;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
